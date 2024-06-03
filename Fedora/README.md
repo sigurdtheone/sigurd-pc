@@ -19,9 +19,9 @@ These will need you to have all downloads paused (unpause the download after ent
 
 HTTP2 disabling
 
-Linux:
-
+```
 @nClientDownloadEnableHTTP2PlatformLinux 0 
+```
 
 (https://www.reddit.com/r/linux_gaming/comments/16e1l4h/slow_steam_downloads_try_this/)
 

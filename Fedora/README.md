@@ -47,6 +47,23 @@ sudo dnf swap mesa-va-drivers.i686 mesa-va-drivers-freeworld.i686
 sudo dnf swap mesa-vdpau-drivers.i686 mesa-vdpau-drivers-freeworld.i686
 ```
 
+# LVM Cache HDD
+
+```bash
+wipefs --all --backup /dev/sdb
+pvcreate /dev/sdb
+pvcreate /dev/nvme1n1p3
+vgcreate vg_data /dev/sdb /dev/nvme1n1p3
+lvcreate -L 9t -n lv_data vg_data /dev/sdb
+lvcreate -n cachepool_meta -L 1G vg_data /dev/nvme1n1p3
+lvcreate -n cachepool -L 400G vg_data /dev/nvme1n1p3
+lvconvert --type cache-pool --poolmetadata cachepool_meta vg_data/cachepool
+lvconvert --type cache --cache-pool cachepool --cachemode writethrough vg_data/lv_data
+```
+
+(https://blog.delouw.ch/2020/01/29/using-lvm-cache-for-storage-tiering/)
+
+
 # Misc Software
 
 ```bash

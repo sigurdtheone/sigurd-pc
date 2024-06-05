@@ -67,7 +67,7 @@ lvconvert --type cache --cache-pool cachepool --cachemode writethrough vg_data/l
 # Misc Software
 
 ```bash
-sudo dnf install mediainfo htop nvtop 
+sudo dnf install mediainfo htop nvtop iotop
 ```
 
 

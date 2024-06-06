@@ -4,4 +4,5 @@
 
 Set window size Rule in Window Management -> Advanced -> Window Rules
 
-![image](https://github.com/sigurdtheone/sigurd-pc/assets/12460196/b3f1a29d-01de-48d7-9730-3188a3dbe664)
+![image](https://github.com/sigurdtheone/sigurd-pc/assets/12460196/2cafb64e-aa9d-43b1-bbfc-ccd32329ef8c)
+

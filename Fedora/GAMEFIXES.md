@@ -11,3 +11,10 @@ Launch Option: `gamescope -e -w 3840 -h 2160 -r 60 -f --force-grab-cursor -b --a
 https://github.com/ValveSoftware/gamescope/issues/163
 
 Enable Steam overlay or `env LD_PRELOAD=""`
+
+## Minecraft Modpacks
+
+sudo dnf copr enable g3tchoo/prismlauncher
+sudo dnf install prismlauncher
+
+

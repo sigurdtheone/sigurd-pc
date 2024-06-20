@@ -11,4 +11,4 @@ Untar and run binary.
 
 SteamVR needs the following launch option (set in Steam) 
 
-~/.local/share/Steam/steamapps/common/SteamVR/bin/vrmonitor.sh %command%
+`~/.local/share/Steam/steamapps/common/SteamVR/bin/vrmonitor.sh %command%`

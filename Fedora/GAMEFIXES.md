@@ -11,12 +11,21 @@ https://github.com/ValveSoftware/gamescope/issues/163
 
 Enable Steam overlay or `env LD_PRELOAD=""` in launch options.
 
-## Minecraft Modpacks
+## Minecraft
+
+### Modpacks
 
 Install prismlauncher instead of curseforge.
 
 ```bash
 sudo dnf copr enable g3tchoo/prismlauncher
 sudo dnf install prismlauncher
+```
+
+### Fix audio crash on some modpacks:
+
+```bash
+echo drivers=pulse,alsa >> ~/.alsoftrc
+reboot
 ```
 

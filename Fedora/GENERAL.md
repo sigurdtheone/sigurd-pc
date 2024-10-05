@@ -70,4 +70,16 @@ lvconvert --type cache --cache-pool cachepool --cachemode writethrough vg_data/l
 sudo dnf install mediainfo htop nvtop iotop
 ```
 
+# Bluetooth
+
+Connecting bluetooth devices (ps5 controller) and similar.
+
+```bash
+bluetoothctl
+[bluetooth]# power on
+[bluetooth]# help
+[bluetooth]# scan on
+[bluetooth]# pair <dev>
+[bluetooth]# trust <dev>
+
 

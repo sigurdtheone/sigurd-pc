@@ -66,8 +66,19 @@ lvconvert --type cache --cache-pool cachepool --cachemode writethrough vg_data/l
 
 # Misc Software
 
+## Utils
+
 ```bash
 sudo dnf install mediainfo htop nvtop iotop
+```
+## CoolerControl
+
+```bash
+# make sure you have the necessary plugin:
+sudo dnf install dnf-plugins-core
+sudo dnf copr enable codifryed/CoolerControl
+sudo dnf install coolercontrol
+sudo systemctl enable --now coolercontrold
 ```
 
 # Bluetooth

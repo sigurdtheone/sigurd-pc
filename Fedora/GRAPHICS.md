@@ -2,6 +2,18 @@
 
 Most of this will focus on AMD and the 7900 XTX
 
+
+# Installing Mesa Drivers
+
+#!TODO: Why swap?:/
+
+```bash
+sudo dnf swap mesa-va-drivers mesa-va-drivers-freeworld
+sudo dnf swap mesa-vdpau-drivers mesa-vdpau-drivers-freeworld
+sudo dnf swap mesa-va-drivers.i686 mesa-va-drivers-freeworld.i686
+sudo dnf swap mesa-vdpau-drivers.i686 mesa-vdpau-drivers-freeworld.i686
+```
+
 ## Setting up LACT overclocking
 
 ### Installing LACT

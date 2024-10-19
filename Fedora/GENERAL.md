@@ -38,15 +38,6 @@ sudo mount -a
 //10.8.0.10/Steffi /mnt/Steffi cifs credentials=/etc/samba/credentials,uid=1000,gid=1000 0 2
 ```
 
-# Graphics
-
-```bash
-sudo dnf swap mesa-va-drivers mesa-va-drivers-freeworld
-sudo dnf swap mesa-vdpau-drivers mesa-vdpau-drivers-freeworld
-sudo dnf swap mesa-va-drivers.i686 mesa-va-drivers-freeworld.i686
-sudo dnf swap mesa-vdpau-drivers.i686 mesa-vdpau-drivers-freeworld.i686
-```
-
 # LVM Cache HDD
 
 ```bash

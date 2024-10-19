@@ -3,7 +3,7 @@
 Most of this will focus on AMD and the 7900 XTX
 
 
-# Installing Mesa Drivers
+## Installing Mesa Drivers
 
 #!TODO: Why swap?:/
 
@@ -13,6 +13,14 @@ sudo dnf swap mesa-vdpau-drivers mesa-vdpau-drivers-freeworld
 sudo dnf swap mesa-va-drivers.i686 mesa-va-drivers-freeworld.i686
 sudo dnf swap mesa-vdpau-drivers.i686 mesa-vdpau-drivers-freeworld.i686
 ```
+
+## Setting up monitoring Software
+
+### Installing `amdgpu_top`
+
+Go to this URL and grab the .rpm https://github.com/Umio-Yasuno/amdgpu_top/releases
+
+Install with Software Centre
 
 ## Setting up LACT overclocking
 

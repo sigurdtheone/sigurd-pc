@@ -74,7 +74,9 @@ sudo systemctl enable --now coolercontrold
 
 # Bluetooth
 
-Connecting bluetooth devices (ps5 controller) and similar.
+Connecting bluetooth devices (ps5 controller) and similar
+
+Doing it via bluetoothctl and using a specific bluetooth controller (onboard didn't work for me)
 
 ```bash
 bluetoothctl

@@ -15,9 +15,10 @@ Install with Software Centre
 
 ### Installing LACT
 
-?
+Note: currently disabled due to driver debugging (has caused problems in the past)
 
 ```bash
+sudo dnf install lact
 sudo systemctl enable --now lactd
 ```
 

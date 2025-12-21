@@ -1,3 +1,13 @@
+# General Software Repositories
+
+1. Go to Discover and go to settings
+2. Enable RPM Fusion Non-Free Steam (and nvidia if neccessary)
+
+# General Software Packages
+
+```bash
+sudo dnf install nextcloud-client steam mediainfo htop nvtop iotop
+```
 
 # Media Codecs:
 
@@ -57,11 +67,6 @@ lvconvert --type cache --cache-pool cachepool --cachemode writethrough vg_data/l
 
 # Misc Software
 
-## Utils
-
-```bash
-sudo dnf install mediainfo htop nvtop iotop
-```
 ## CoolerControl
 
 ```bash
@@ -77,6 +82,8 @@ sudo systemctl enable --now coolercontrold
 Connecting bluetooth devices (ps5 controller) and similar
 
 Doing it via bluetoothctl and using a specific bluetooth controller (onboard didn't work for me)
+
+Remember that the UI can also switch between different bluetooth controllers so you might have the wrong one selected.
 
 ```bash
 bluetoothctl

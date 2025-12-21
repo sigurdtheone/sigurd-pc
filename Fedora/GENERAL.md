@@ -2,13 +2,21 @@
 
 1. Go to Discover and go to settings
 2. Enable RPM Fusion Non-Free Steam (and nvidia if neccessary)
-
 # General Software Packages
 
 ```bash
-sudo dnf install nextcloud-client steam mediainfo htop nvtop iotop
+
+sudo dnf install nextcloud-client steam mediainfo htop nvtop iotop vlc telegram-desktop discord
 ```
 
+# Unity Repo:
+```bash
+sudo sh -c 'echo -e "[unityhub]\nname=Unity Hub\nbaseurl=https://hub.unity3d.com/linux/repos/rpm/stable\nenabled=1\ngpgcheck=1\ngpgkey=https://hub.unity3d.com/linux/repos/rpm/stable/repodata/repomd.xml.key\nrepo_gpgcheck=1" > /etc/yum.repos.d/unityhub.repo'
+```
+
+```bash
+sudo dnf install unityhub
+```
 # Media Codecs:
 
 ```bash

@@ -1,5 +1,17 @@
 # Game Fixes for Various Games:
 
+## General Settings
+
+Different gamescope settings repositories:
+
+### Arch Gamescope Docs
+https://wiki.archlinux.org/title/Gamescope
+
+### ProtonDB proton status for individual games
+https://www.protondb.com/
+
+### Gamescope Repo for further settings:
+https://github.com/ValveSoftware/gamescope
 
 ## Fallout 4
 
